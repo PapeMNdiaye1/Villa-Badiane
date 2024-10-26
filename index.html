@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="icon" href="./Style/Images/PNG/favicon.png" />
-    <meta name="description" content="Villa Sarr" />
+    <meta name="description" content="Villa Badiane" />
     <meta name="Keywords"
         content=" Visualisation architecturale, ArchViz, Architectur, Visualisation 3D, 3D sénégal, Architectur sénégal," />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -462,7 +462,14 @@ position="4.73837 -1.35156 0.16967"
         </a-plane>
 
 
-   
+
+        <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote" material="src: #Arrow-1; transparent:true"
+position="-3.85499 -1.77705 0.22813"
+    rotation="-70.05956031521167 89.57106507059673 -1.3808282862652839"
+                            the_dote="Name_of_dote: Dote-17 ; Group_to_activate: Group-17 ; The_rotation:  0">
+        </a-plane>
+
+
     </a-entity>
     <!-- ############################################################ -->
     <!-- Group-17 -->
@@ -473,18 +480,12 @@ position="-2.97795 -1.00867 0.16072"
                         the_dote="Name_of_dote: Dote-16 ; Group_to_activate: Group-16 ; The_rotation:  0">
         </a-plane>
 
-
-
         <a-plane data-clickable scale='0.9 0.9 0.9' opacity='.5' class="Dote" material="src: #Arrow-1; transparent:true"
- position="-0.38799 -1.00867 -4.02756"
-    rotation="-87.80807393497918 86.15451773823162 2.05978327349531"
-                the_dote="Name_of_dote: Dote-18 ; Group_to_activate: Group-18 ; The_rotation:  0">
+            position="-3.85499 -1.77705 0.22813"
+            rotation="-70.05956031521167 89.57106507059673 -1.3808282862652839"
+            the_dote="Name_of_dote: Dote-18 ; Group_to_activate: Group-18 ; The_rotation:  0">
         </a-plane>
-
-
-
-
-
+        
     </a-entity>
     <!-- ############################################################ -->
     <!-- Group-18 -->
@@ -1180,7 +1181,7 @@ position="-0.16011 -1.00867 5.85609"
             the_group_to_activate.setAttribute('visible', 'true')
             the_group_to_activate.setAttribute('scale', '1 1 1')
         }
-        setStrat(21)
+        setStrat(1)
 
         AFRAME.registerComponent('the_dote', {
             schema: { Name_of_dote: { type: 'string', default: '#Name', }, Group_to_activate: { type: 'string', default: '#Position', }, The_rotation: { type: 'string', default: '0', } },
